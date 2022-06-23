@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #252B42;
+}
+
+.pt-160 {
+  padding-top: 160px;
+}
+
+.pb-160 {
+  padding-bottom: 160px;
+}
+
+.bg-dark {
+  background-color: #26335d !important;
+}
+
+.text-white h2,
+.text-white p {
+  color: #fff !important;
+}
+
+.section-title {
+  margin-bottom: 80px;
+  max-width: 690px;
+  letter-spacing: 0.2px;
+}
+.section-title h6 {
+  font-size: 14px;
+  color: #FC724D;
+  font: 700;
+}
+.section-title h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #252B42;
+}
+.section-title p {
+  max-width: 470px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  column-gap: 83px;
+}
+
+.header-nav {
+  display: flex;
+  column-gap: 21px;
+  align-items: center;
+}
+.header-nav a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.header-right {
+  display: flex;
+  column-gap: 45px;
+}
+.header-right button:nth-child(1) {
+  background-color: transparent;
+  border: none;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #FC724D;
+}
+.header-right button:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 25px;
+  gap: 15px;
+  background: #FC724D;
+  border-radius: 5px;
+  border: none;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.header-logo {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero {
+  background-image: url(../img/main-bg.png);
+  height: 730px;
+  background-size: cover;
+}
+
+.hero-content {
+  margin-top: 100px;
+  max-width: 500px;
+}
+.hero-content h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #FC724D;
+  margin-bottom: 35px;
+}
+.hero-content h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  margin-bottom: 35px;
+}
+.hero-content h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-bottom: 35px;
+}
+.hero-content .btn-cta {
+  padding: 15px 40px;
+  border-radius: 5px;
+  background-color: #FC724D;
+  color: #fff;
+  border: none;
+}
+
+.about .card {
+  padding: 35px 40px;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+.about .card .card-body {
+  margin: 0;
+  padding: 0;
+}
+.about .card .card-icon {
+  width: 72px;
+  height: 72px;
+  margin-bottom: 20px;
+}
+.about .card .card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+.about .card .card-title::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 40px;
+  margin: 20px 0;
+  background-color: #E74040;
+}
+.about .card .card-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.impressions .card {
+  width: 100%;
+  border-radius: 0;
+}
+.impressions .card .card-img {
+  position: relative;
+}
+.impressions .card .card-img img {
+  border-radius: 0;
+}
+.impressions .card .card-img .stock {
+  position: absolute;
+  background-color: #FC724D;
+  top: 20px;
+  left: 20px;
+  padding: 0 10px;
+  width: 51px;
+  height: 24px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 3px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-transform: capitalize;
+}
+.impressions .card .card-body {
+  padding: 35px 25px;
+}
+.impressions .card .card-body h6 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FC724D;
+}
+.impressions .card .card-body h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252b42;
+}
+.impressions .card .card-body p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.impressions .card .card-body .sales {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.impressions .card .card-body .price {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #0061ff;
+}
+.impressions .card .card-body .price.old {
+  color: #bdbdbd;
+}
+
+.pricing .card {
+  padding: 40px 50px;
+  border-radius: 0;
+}
+.pricing .card .card-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: #FC724D;
+  color: #fff;
+  text-align: center;
+  font-size: 69px;
+  line-height: 96px;
+  margin-bottom: 35px;
+}
+.pricing .card .card-title {
+  color: #000;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  padding-bottom: 35px;
+}
+.pricing .card .card-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding-bottom: 35px;
+}
+.pricing .card .card-price {
+  padding-bottom: 35px;
+}
+.pricing .card .card-price .price {
+  display: block;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #FC724D;
+}
+.pricing .card .card-price span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #8EC2F2;
+}
+.pricing .card-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding-bottom: 35px;
+}
+.pricing .btn-price {
+  padding: 15px 40px;
+  border-radius: 5px;
+  background: #FC724D;
+  border: none;
+  width: 100%;
+  margin-bottom: 35px;
+}
+.pricing .list-group li {
+  border: none;
+}
+
+.testimonials .testimonial {
+  width: 100%;
+  padding: 60px 90px;
+}
+.testimonials .testimonial .star-icons {
+  color: #f3cd03;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+.testimonials .testimonial .description {
+  margin-bottom: 30px;
+}
+.testimonials .testimonial .description p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+.testimonials .testimonial .author {
+  display: flex;
+  gap: 15px;
+}
+.testimonials .testimonial .author img {
+  width: 50px;
+  height: 50px;
+}
+.testimonials .testimonial .name h4 {
+  color: #FC724D;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.testimonials .testimonial .name h5 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+.joinus .section-title {
+  text-align: center;
+  max-width: 100%;
+}
+.joinus .section-title h2 {
+  text-transform: uppercase;
+}
+.joinus .section-title p {
+  margin: 0 auto;
+}
+.joinus .joinus-form input {
+  margin: 10px 0;
+  width: 100%;
+  max-width: 570px;
+  height: 50px;
+  border-radius: 0;
+  outline: none;
+  border: 1px solid grey;
+  padding-left: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
